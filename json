@@ -1,0 +1,95 @@
+{
+  "basics": {
+    "name": "Alexa McGuire",
+    "label": "Software Developer",
+    "picture": "",
+    "email": "alexamcguire@email.com",
+    "phone": "(206) 555-5555",
+    "website": "linkedin.com/in/your-name-here",
+    "summary": "Seven years of experience as a Software Developer and six years as a Web Designer for local businesses. Took ownership of numerous back-end and front-end features, while maintaining and refactoring existing code base. Extensive experience implementing REST and SOAP APIs to integrate product features into third party systems. Proven effectiveness balancing the needs of different departments while working in both self-directed and team settings. Self-taught and continually gaining new skills.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Seattle",
+      "countryCode": "US",
+      "region": "Washington"
+    },
+    "profiles": [{
+      "network": "Linkedin",
+      "username": "your-name-here",
+      "url": "http://linkedin/in/your-name-here"
+    }]
+  },
+  "work": [{
+    "company": "Company 3",
+    "position": "Job Title",
+    "website": "",
+    "startDate": "(MM/YYYY)",
+    "endDate": "Present",
+    "summary": "This is where you write about your experience. Do not simply list your day-to-day job duties. Work in resume keywords that are most relevant to the job for which you are applying. Try replacing some of your duties with measurable results and accomplishments rather than duties. Remember, "duties tell, accomplishments sell." To create a strong measurable result, try this format: [Action verb] [brief explanation of accomplishment] resulting in [quantifiable outcome. Using %,$, etc. will draw the eye and make an impact]. For example: "Responded to an average of 203 customer service emails per week, improving response timeby 74% and customer satisfaction by 31% between 2016 to 2017." You can also say that you had experience with relevant engineering technologies like PHP, Laravel, Vue.js, AWS, and MySQL in on a customer-facing product.",
+    
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "website": "http://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description...",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "University",
+    "area": "Software Development",
+    "studyType": "Bachelor",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "gpa": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+}
+$ npm install -g resume-cli # instal
+$ resume export index.html # export html file
+$ open index.html # open browser
